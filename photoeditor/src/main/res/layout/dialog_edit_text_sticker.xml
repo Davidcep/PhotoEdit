@@ -19,7 +19,7 @@
         android:padding="@dimen/padding_10dp"
         android:text="@string/iamutkarshtiwari_github_io_ananas_done"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/base_color"
         android:textSize="@dimen/text_size_16sp" />
 
     <EditText

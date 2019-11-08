@@ -114,14 +114,14 @@ public class PaintFragment extends BaseEditFragment implements View.OnClickListe
     public void onClick(View view) {
         if (view == backToMenu) {
             backToMain();
-        } else if (view == eraserView) {
-            if (!isEraser) {
-                toggleButtons();
-            }
-        } else if (view == brushView) {
-            if (isEraser) {
-                toggleButtons();
-            }
+//        } else if (view == eraserView) {
+//            if (!isEraser) {
+//                //toggleButtons();
+//            }
+//        } else if (view == brushView) {
+//            if (isEraser) {
+//                //toggleButtons();
+//            }
         } else if (view.getId() == R.id.settings) {
             showDialog(isEraser ? eraserConfigDialog : brushConfigDialog);
         }

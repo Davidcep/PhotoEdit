@@ -33,4 +33,6 @@
     <color name="kelly_20">#6f340d</color>
     <color name="kelly_21">#d32b1e</color>
     <color name="kelly_22">#2b3514</color>
+
+    <color name="base_color">#757575</color>
 </resources>
