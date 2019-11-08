@@ -13,7 +13,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 Add the dependency in gradle file of app module like this
 ```
-implementation 'com.github.iamutkarshtiwari:Ananas:1.2.2'
+implementation 'com.github.Davidcep:PhotoEdit:1.2'
 ```
 Add the compatibility with Java 1.8:
 ```
